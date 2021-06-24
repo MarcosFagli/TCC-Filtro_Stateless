@@ -23,7 +23,7 @@ Para a geração dos arquivos em Verilog, utilize o seguinte comando:
 bsc -verilog -u TbIfc.bsv
 ```
 
-Continue para a acriação do tb (nome do arquivo executável) e então a criação do dump.vcd.
+Continue para a criação do tb (nome do arquivo executável) e então a criação do dump.vcd.
 
 ```
 bsc -verilog -o tb -e mkTbIfc
